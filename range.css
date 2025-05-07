@@ -1,0 +1,81 @@
+.range-container {
+  position: relative;
+  margin: 0px  10px  0px  10px;
+  line-height: 0;
+}
+
+input[type="range"] {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: transparent;
+  position: relative;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  background: #BC4749;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+.ticks {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.tick {
+  width: 24px;
+  height: 24px;
+  background: #BC4749;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.sign_box {
+  padding: 0 0 50px 0;
+  top: 0%;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.sign {
+  user-select: none;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  background: #BC4749;
+  border-radius: 0 0 25px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  opacity: 0.5;
+  pointer-events: auto;
+  transition: height 0.6s ease, font-size 0.6s ease;
+}
+
+.sign:hover {
+  height: 62px;
+  font-size: 24px;
+}
