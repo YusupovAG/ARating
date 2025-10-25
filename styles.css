@@ -24,14 +24,18 @@ body {
 
 */
 
-.body {
+.a_widget_body {
     padding: 0px;
-    background: linear-gradient(to bottom, #6A994E, #386641);
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+
+.l-content {
+  background: linear-gradient(to bottom, #6A994E, #386641);
 }
 
 .c_face_box {
