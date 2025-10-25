@@ -20,7 +20,7 @@ document.querySelectorAll('input[type="range"]').forEach(range => {
     });
 });
 
-function processRangeValues() {
+window.processRangeValues = function() {
   const ranges = document.querySelectorAll('input[type="range"]');
   let sumBase = 0;
 
