@@ -25,17 +25,13 @@ body {
 */
 
 .a_widget_body {
+    background: linear-gradient(to bottom, #ffffff, #6A994E);
     padding: 0px;
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
-
-
-.l-content {
-  background: linear-gradient(to bottom, #6A994E, #386641);
 }
 
 .c_face_box {
