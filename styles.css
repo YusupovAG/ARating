@@ -65,7 +65,7 @@ body {
   margin: 10px 10px 0 10px;
 }
 #a_widget_body .c_rating_red_box {
-  width: 150px;
+  width: 80%;
   word-wrap: break-word;
   color: #F2E8CF;
   border-radius: 300px 300px 0 0;
