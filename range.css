@@ -1,10 +1,10 @@
-.range-container {
+#a_widget_body .range-container {
   position: relative;
   margin: 0px  10px  0px  10px;
   line-height: 0;
 }
 
-input[type="range"] {
+#a_widget_body input[type="range"] {
   width: 100%;
   -webkit-appearance: none;
   appearance: none;
@@ -15,7 +15,7 @@ input[type="range"] {
   position: relative;
 }
 
-input[type="range"]::-webkit-slider-thumb {
+#a_widget_body input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 24px;
@@ -26,7 +26,7 @@ input[type="range"]::-webkit-slider-thumb {
   position: relative;
 }
 
-.ticks {
+#a_widget_body .ticks {
   position: absolute;
   top: 0%;
   width: 100%;
@@ -35,7 +35,7 @@ input[type="range"]::-webkit-slider-thumb {
   pointer-events: none;
 }
 
-.tick {
+#a_widget_body .tick {
   width: 24px;
   height: 24px;
   background: #BC4749;
@@ -48,7 +48,7 @@ input[type="range"]::-webkit-slider-thumb {
   opacity: 0.5;
 }
 
-.sign_box {
+#a_widget_body .sign_box {
   padding: 0 0 50px 0;
   top: 0%;
   width: 100%;
@@ -58,7 +58,7 @@ input[type="range"]::-webkit-slider-thumb {
   pointer-events: none;
 }
 
-.sign {
+#a_widget_body .sign {
   user-select: none;
   width: 24px;
   height: 24px;
@@ -75,7 +75,7 @@ input[type="range"]::-webkit-slider-thumb {
   transition: height 0.6s ease, font-size 0.6s ease;
 }
 
-.sign:hover {
+#a_widget_body .sign:hover {
   height: 62px;
   font-size: 24px;
 }
