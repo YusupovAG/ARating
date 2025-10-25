@@ -90,7 +90,7 @@ function updateRatingColor(rating) {
   const ratingBar = document.querySelector('.c_rating_red_box');
   ratingBar.style.backgroundColor = hexColor;
 }
-
+/*
 window.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('input[type="range"]').forEach(range => {
       range.dispatchEvent(new Event('input'));
@@ -100,3 +100,17 @@ window.addEventListener('DOMContentLoaded', () => {
   });
   processRangeValues();
 });
+
+*/
+
+function initializeRatingWidget() {
+  document.querySelectorAll('input[type="range"]').forEach(range => {
+      range.dispatchEvent(new Event('input'));
+  });
+  document.querySelectorAll('input[type="range"]').forEach(range => {
+      range.addEventListener('input', processRangeValues);
+  });
+  processRangeValues();
+}
+
+setTimeout(initializeRatingWidget, 100);
