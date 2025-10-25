@@ -24,6 +24,16 @@ body {
 
 */
 
+.body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
 .c_face_box {
     max-width: 70%;
     display: flex;
