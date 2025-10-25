@@ -13,7 +13,7 @@
   height: 100%;
   background: transparent;
   position: relative;
-  border: none;
+  border: none !important;
 }
 
 #a_widget_body input[type="range"]::-webkit-slider-thumb {
