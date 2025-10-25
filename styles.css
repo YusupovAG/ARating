@@ -25,7 +25,7 @@ body {
 */
 
 .a_widget_body {
-    background: linear-gradient(to bottom, #6A994E, #ffffff);
+    background: linear-gradient(to top, #6A994E, #ffffff);
     padding: 0px;
     margin: 0;
     display: flex;
