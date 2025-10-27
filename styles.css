@@ -32,7 +32,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  --main-color: #E8EBEF
+  --main-color: #E8EBEF;
 
 }
 
@@ -46,7 +46,7 @@ body {
 
 #a_widget_body .c_range_box {
   min-width: 300px;
-  background-color: --main-color;
+  background-color: var(--main-color);
   color: #6A994E;
   padding: 10px;
   border-radius: 25px;
@@ -57,10 +57,10 @@ body {
 }
 
 #a_widget_body .c_rating_box {
-  color: --main-color;
+  color: var(--main-color);
   width: 150px;
   border-radius: 300px 300px 0 0;
-  background-color: --main-color;
+  background-color: var(--main-color);
   padding: 10px 10px 0px 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
@@ -70,7 +70,7 @@ body {
 #a_widget_body .c_rating_red_box {
   width: 100%;
   word-wrap: break-word;
-  color: --main-color;
+  color: var(--main-color);
   border-radius: 300px 300px 0 0;
   background-color: #BC4749;
   text-align: center;
@@ -96,7 +96,7 @@ body {
 
 #a_widget_body .c_title_box {
   width: fit-content;
-  background-color: --main-color;
+  background-color: var(--main-color);
   color: #6A994E;
   padding: 10px 20px 3px 20px;
   border-radius: 25px 25px 0px 0px;
