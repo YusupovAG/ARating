@@ -1,9 +1,12 @@
+:root {
+  --tick-color: #4C86C8;
+}
+
 #a_widget_body .range-container {
   position: relative;
   margin: 0px  10px  0px  10px;
   line-height: 0;
   border: none !important;
-  --tick-color: #4C86C8;
 }
 
 #a_widget_body input[type="range"] {
